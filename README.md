@@ -1,13 +1,13 @@
 # portifolio Web Designer
 
 ## Tarefas
-[] Header
+- [] Header
     -[X]HTML
     -[]CSS
-[] Apresentação
+- [] Apresentação
 
-[] Projetos
+- [] Projetos
 
-[] Conhecimentos
+- [] Conhecimentos
 
-[] Orçamento
+- [] Orçamento

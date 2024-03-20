@@ -108,6 +108,10 @@ filter: brightness(30%);
     margin: 0 auto;
 }
 
+.campo{
+    display: flex;
+    flex-direction: column;
+}
 .linha{
     grid-column: 1 / 3;
 }

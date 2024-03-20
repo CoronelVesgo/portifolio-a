@@ -56,7 +56,48 @@
 
     </section>
 
+<section id="secao-orcamento">
+    <h2>Faça um orçamento</h2>
+    <form action="">
+        <div class="campo linha">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome">
+        </div> 
+        
+        <div class="campo">
+            <label for="paginas">Páginas</label>
+            <input type="number" id="paginas" min="1" value="1">
+        </div>
+        <div class="campo">
+            <label for="tipo">Tipo de Site</label>
+            <select id="tipo">
+                <option value="1">Estático</option>
+                <option value="2">Dinâmico</option>                       
+            </select>            
+        </div>
+        <div class="campo">
+            <label for="">Precisa de protótipo?</label>
+            <div>
+                <input type="radio" name="prototipo">
+                <label for="">Sim</label>
+                <input type="radio" name="prototipo">
+                <label for="">Não</label>
+            
+            </div>
+        </div>
+        <div class="campo">
+            <input type="checkbox" id="js">
+            <label for="js">tem automação com JS</label>
+        </div>
+           
+        <label for="prazo">Prazo</label>
+        <input type="range" min="1" max="12" id="prazo">
+
+        <button>Enviar Formulario</button>
     
+    </form>
+
+</section>
 
    
 

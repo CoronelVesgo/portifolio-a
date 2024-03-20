@@ -90,3 +90,30 @@ p{
 filter: brightness(30%);
 }
 
+#secao-orcamento{
+    height: 100vh;
+    padding: 3rem;
+}
+
+#secao-orcamento h2{
+    font-family: var(--font-title);
+
+}
+
+#secao-orcamento form{
+    display: grid;
+    grid-template-columns: repeat(2,1);
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.linha{
+    grid-column: 1 / 3;
+}
+
+input[type=radio]
+input[type=checkbox]
+input[type=range]{
+    accent-color: var(rgb(194, 7, 7));
+}
